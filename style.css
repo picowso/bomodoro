@@ -1,0 +1,61 @@
+/* flexbox */
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #8c3a3a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+#field {
+  background-color: #7f3737;
+  width: 300px;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+#navbar {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#field {
+  background-color: #7f3737;
+  width: 300px;
+  margin: 80px auto;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+#txt {
+  font-size: 80px;
+  margin: 20px 0;
+  color: white;
+}
+
+#btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #181a1b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
