@@ -7,7 +7,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: Arial, sans-serif;
+  font-family: Bitcount Grid Double, sans-serif;
 }
 
 #field {
@@ -58,4 +58,15 @@ body {
   color: white;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+#l {
+  padding: 1px 10px;
+  margin: left;
+}
+
+#r {
+  padding: 1px 10px;
+  margin: right;
 }

@@ -23,7 +23,7 @@ function timer() {
 	btn.innerHTML = "stop";
 	listen = setInterval(() => {
 		if (x < 0) {
-			clearInterval(timer);
+			clearInterval(listen);
 		    txt.innerHTML = "Done!";
 		    return;
 	  	}
